@@ -1,0 +1,31 @@
+<Window x:Class="Lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Text" Margin="10,34,748,376" Background="#FFC1BDBD" BorderBrush="#FFD61616" RenderTransformOrigin="0.238,0.48"/>
+        <Button Content="Bash" Margin="62,34,689,376" BorderBrush="#FF327C07" Background="#FF57EC86"/>
+        <Button Content="C++" RenderTransformOrigin="0.5,0.5" Margin="122,34,630,376" Background="#FF073FA2" Foreground="White" BorderBrush="Black">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="C#" Margin="180,34,592,376" BorderBrush="#FF6B05FD" Background="#FF9700FF" Foreground="White"/>
+        <Button Content="Java" Margin="220,34,535,375" BorderBrush="Black" Background="#FF0825A8" Foreground="White"/>
+        <Button Content="CSS" Margin="277,34,483,376" BorderBrush="Black" Background="#FF005DFF" Foreground="White"/>
+        <Button Content="HTML" Margin="327,34,425,376" BorderBrush="#FFFD0505" Background="#FFFF6800" Foreground="White"/>
+        <Button Content="JavaScript" Margin="386,34,346,376" BorderBrush="#FFFDB905" Background="#FFFFDC00" Foreground="Black"/>
+        <Button Content="PHP" Margin="466,34,288,376" BorderBrush="Black" Background="#FF83B3C9" Foreground="Black" RenderTransformOrigin="0.394,0.56"/>
+        <Button Content="Python" Margin="524,34,223,376" BorderBrush="#FF7C6B22" Background="#FFFBDB0F" Foreground="#FF1B8BAC"/>
+        <Button Content="SQL" Margin="588,34,175,376" BorderBrush="#FF0527FD" Background="#FF0068FF" Foreground="#FFFBFB07"/>
+    </Grid>
+</Window>
